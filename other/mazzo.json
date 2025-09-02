@@ -1,0 +1,832 @@
+[
+    {
+        "quantity": 1,
+        "name": "Matricola Energy Drink",
+        "description": "Impossibile seguire una lezione senza la Red Bull. Non si puo'.",
+        "type": "[2] MATRICOLA",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "Matricola Scout",
+        "description": "Che bello programmare all'aria aperta.",
+        "type": "[2] MATRICOLA",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "Matricola Smanettone",
+        "description": "Avra' una versione di ArchLinux su cui non girera' nulla.",
+        "type": "[2] MATRICOLA",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "Matricola Gamer",
+        "description": "Frequenta perlopiu' lezioni di Brawl Stars, Geometry Dash e TCG Pokemon.",
+        "type": "[2] MATRICOLA",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "Matricola Multitasking",
+        "description": "Svolge gli esercizi, guarda House Of Cards e risponde alle domande del docente.",
+        "type": "[2] MATRICOLA",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "Matricola Scacchista",
+        "description": "Arrivera' in ritardo alla lezione perche' sta finendo la partita all'ingresso del Palazzo.",
+        "type": "[2] MATRICOLA",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Studente Freddoloso",
+        "description": "Possono esserci 40 gradi, ma lui avra' comunque freddo.",
+        "type": "[3] STUDENTE_SEMPLICE",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Studente Boscaiolo",
+        "description": "Barba folta e passione per le camicie a quadri.",
+        "type": "[3] STUDENTE_SEMPLICE",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Studente Trassato",
+        "description": "Confonde il Palazzo delle Scienze con le Terrazze di Calamosca.",
+        "type": "[3] STUDENTE_SEMPLICE",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Studente Erasmus",
+        "description": "Profesor, es posible realizar el examen en ingles?",
+        "type": "[3] STUDENTE_SEMPLICE",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Studente Influencer",
+        "description": "La soluzione al tuo esercizio fa tendenza!",
+        "type": "[3] STUDENTE_SEMPLICE",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Studente Palestrato",
+        "description": "Ha le spalle cosi' larghe che occupa due posti.",
+        "type": "[3] STUDENTE_SEMPLICE",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Studente Anticipatore",
+        "description": "Se la lezione parla degli array, lui sta gia' pensando alle liste.",
+        "type": "[3] STUDENTE_SEMPLICE",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Studente Chiacchierone",
+        "description": "Parlera' di tutto con il collega di fianco ma non dei puntatori.",
+        "type": "[3] STUDENTE_SEMPLICE",
+        "number_of_effects": 0,
+        "effects": [],
+        "when_to_play": "[3] MAI",
+        "optional": false
+    },
+    {
+        "quantity": 4,
+        "name": "Laureando Nerd",
+        "description": "Quando questa carta esce dalla tua aula, puoi eliminare una carta dall'aula di un altro giocatore.",
+        "type": "[4] LAUREANDO",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[1] TU",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[2] FINE",
+        "optional": true
+    },
+    {
+        "quantity": 4,
+        "name": "Laureando Lagna",
+        "description": "Quando questa carta entra nella tua aula, ogni giocatore incluso te stesso deve scartare una carta.",
+        "type": "[4] LAUREANDO",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[3] TUTTI",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 4,
+        "name": "Laureando Seduttore",
+        "description": "Quando questa carta entra nella tua aula, puoi scartare una carta e poi ruba una carta studente.",
+        "type": "[4] LAUREANDO",
+        "number_of_effects": 2,
+        "effects": [
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[3] RUBA",
+                "player_target": "[1] TU",
+                "card_target": "[1] STUDENTE"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": true
+    },
+    {
+        "quantity": 4,
+        "name": "Laureando Avido",
+        "description": "Quando questa carta entra nella tua aula, pesca una carta.",
+        "type": "[4] LAUREANDO",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 4,
+        "name": "Laureando Hipster",
+        "description": "Quando questa carta entra nella tua aula, pesca due carte e scarta una carta.",
+        "type": "[4] LAUREANDO",
+        "number_of_effects": 3,
+        "effects": [
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 4,
+        "name": "Laureando Casinista",
+        "description": "Quando questa carta entra nella tua aula, tutti i giocatori devono eliminare una carta studente dalla propria aula.",
+        "type": "[4] LAUREANDO",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[3] TUTTI",
+                "card_target": "[1] STUDENTE"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 4,
+        "name": "Laureando Snitch",
+        "description": "Quando questa carta entra nella tua aula, puoi eliminare una carta vantaggio dall'aula di un altro giocatore.",
+        "type": "[4] LAUREANDO",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[1] TU",
+                "card_target": "[5] BONUS"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": true
+    },
+    {
+        "quantity": 4,
+        "name": "Laureando Ladro",
+        "description": "Quando questa carta entra nella tua aula, puoi rubare una carta vantaggio dall'aula di un altro giocatore.",
+        "type": "[4] LAUREANDO",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[3] RUBA",
+                "player_target": "[1] TU",
+                "card_target": "[5] BONUS"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": true
+    },
+    {
+        "quantity": 3,
+        "name": "CTM in orario",
+        "description": "Se questa carta e' nella tua aula all'inizio del tuo turno, puoi giocare due carte.",
+        "type": "[5] BONUS",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[0] GIOCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[1] INIZIO",
+        "optional": true
+    },
+    {
+        "quantity": 3,
+        "name": "Salta fila in mensa",
+        "description": "Se questa carta e' nella tua aula all'inizio del tuo turno, puoi scartare 3 carte e poi rubare una carta studente.",
+        "type": "[5] BONUS",
+        "number_of_effects": 4,
+        "effects": [
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[3] RUBA",
+                "player_target": "[1] TU",
+                "card_target": "[1] STUDENTE"
+            }
+        ],
+        "when_to_play": "[1] INIZIO",
+        "optional": true
+    },
+    {
+        "quantity": 3,
+        "name": "Aula dei vecchi progetti",
+        "description": "Se questa carta e' nella tua aula all'inizio del tuo turno, puoi scartare 2 carte poi eliminare una carta studente dall'aula di un altro giocatore.",
+        "type": "[5] BONUS",
+        "number_of_effects": 3,
+        "effects": [
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[1] TU",
+                "card_target": "[1] STUDENTE"
+            }
+        ],
+        "when_to_play": "[1] INIZIO",
+        "optional": true
+    },
+    {
+        "quantity": 3,
+        "name": "Macchinetta inceppata ",
+        "description": "Se questa carta e' nella tua aula all'inizio del tuo turno, puoi scartare una carta e poi pesca una carta.",
+        "type": "[5] BONUS",
+        "number_of_effects": 2,
+        "effects": [
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[1] INIZIO",
+        "optional": true
+    },
+    {
+        "quantity": 3,
+        "name": "Sovraccarico di caffeina",
+        "description": "Se questa carta e' nella tua aula all'inizio del tuo turno, puoi eliminare una carta dalla tua aula e poi pesca due carte.",
+        "type": "[5] BONUS",
+        "number_of_effects": 3,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[1] INIZIO",
+        "optional": true
+    },
+    {
+        "quantity": 3,
+        "name": "Sparacoriandoli",
+        "description": "Se questa carta e' nella tua aula all'inizio del tuo turno, puoi eliminare una carta dalla tua aula e poi elimina una carta dall'aula di un altro giocatore.",
+        "type": "[5] BONUS",
+        "number_of_effects": 2,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[1] TU",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[1] INIZIO",
+        "optional": true
+    },
+    {
+        "quantity": 2,
+        "name": "Aula minuscola",
+        "description": "A inizio turno, elimina una carta studente dalla tua aula.",
+        "type": "[6] MALUS",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[0] IO",
+                "card_target": "[1] STUDENTE"
+            }
+        ],
+        "when_to_play": "[1] INIZIO",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "Portone chiuso",
+        "description": "A inizio turno, scarta una carta.",
+        "type": "[6] MALUS",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[1] INIZIO",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "Allerta meteo",
+        "description": "A inizio turno, elimina una carta studente dalla tua aula e poi pesca una carta.",
+        "type": "[6] MALUS",
+        "number_of_effects": 2,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[0] IO",
+                "card_target": "[1] STUDENTE"
+            },
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[1] INIZIO",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "Esame in Lab T",
+        "description": "La tua mano deve essere visibile a tutti i giocatori.",
+        "type": "[6] MALUS",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[8] MOSTRA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[4] SEMPRE",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "Teams fuori servizio",
+        "description": "Non puoi giocare carte BONUS.",
+        "type": "[6] MALUS",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[9] IMPEDIRE",
+                "player_target": "[0] IO",
+                "card_target": "[5] BONUS"
+            }
+        ],
+        "when_to_play": "[4] SEMPRE",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "CTM in ritardo",
+        "description": "Non puoi giocare carte MAI.",
+        "type": "[6] MALUS",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[9] IMPEDIRE",
+                "player_target": "[0] IO",
+                "card_target": "[8] ISTANTANEA"
+            }
+        ],
+        "when_to_play": "[4] SEMPRE",
+        "optional": false
+    },
+    {
+        "quantity": 1,
+        "name": "Ingegnerizzazione",
+        "description": "Tutti i tuoi studenti sono considerati ingegneri.",
+        "type": "[6] MALUS",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[10] INGEGNERE",
+                "player_target": "[0] IO",
+                "card_target": "[1] STUDENTE"
+            }
+        ],
+        "when_to_play": "[4] SEMPRE",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Due per Uno",
+        "description": "Elimina 1 carta dalla tua aula, poi elimina 2 carte dall'aula di un altro giocatore.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 3,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[1] TU",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[1] TU",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Scambio di esame",
+        "description": "Scambia la tua mano con quella di un altro giocatore.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[7] SCAMBIA",
+                "player_target": "[1] TU",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Passaggio di appunti",
+        "description": "Ruba 1 carta da una mano di un altro giocatore.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[5] PRENDI",
+                "player_target": "[1] TU",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Copia dal turno precedente",
+        "description": "Scarta 1 carta dalla mano e ruba 2 carte dalla mano di un altro giocatore.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 3,
+        "effects": [
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[5] PRENDI",
+                "player_target": "[1] TU",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[5] PRENDI",
+                "player_target": "[1] TU",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Aperitivo da Tiffany",
+        "description": "Elimina 1 carta studente dall'aula di un altro giocatore.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[1] TU",
+                "card_target": "[1] STUDENTE"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 2,
+        "name": "Colpo di Fortuna",
+        "description": "Pesca 2 carte, scarta 3 carte, poi svolgi una carta.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 6,
+        "effects": [
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[0] GIOCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 2,
+        "name": "Ottimo Affare",
+        "description": "Pesca 3 carte e scarta 1 carta.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 4,
+        "effects": [
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[4] PESCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            },
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 2,
+        "name": "Attacco Hacker",
+        "description": "Elimina 1 carta vantaggio dall'aula di un altro giocatore.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[1] TU",
+                "card_target": "[5] BONUS"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 2,
+        "name": "free(svantaggio);",
+        "description": "Elimina 1 carta svantaggio dalla tua aula.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[0] IO",
+                "card_target": "[6] MALUS"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 2,
+        "name": "Ruba Studente",
+        "description": "Prendi 1 carta studente dall'aula di un altro giocatore.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[3] RUBA",
+                "player_target": "[1] TU",
+                "card_target": "[1] STUDENTE"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Sessione di Laurea",
+        "description": "Ogni giocatore (incluso te stesso) elimina 1 carta studente dalla propria aula.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[3] TUTTI",
+                "card_target": "[1] STUDENTE"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Tasto reset",
+        "description": "Ogni giocatore (incluso te stesso) elimina 1 carta bonus e 1 carta malus dalla propria aula.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 2,
+        "effects": [
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[3] TUTTI",
+                "card_target": "[5] BONUS"
+            },
+            {
+                "action": "[2] ELIMINA",
+                "player_target": "[3] TUTTI",
+                "card_target": "[6] MALUS"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 3,
+        "name": "Bagno intasato",
+        "description": "Ogni giocatore (escluso te stesso) deve scartare 1 carta.",
+        "type": "[7] MAGIA",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[1] SCARTA",
+                "player_target": "[2] VOI",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    },
+    {
+        "quantity": 15,
+        "name": "MAI",
+        "description": "Blocca l'azione che un giocatore ti sta imponendo.",
+        "type": "[8] ISTANTANEA",
+        "number_of_effects": 1,
+        "effects": [
+            {
+                "action": "[6] BLOCCA",
+                "player_target": "[0] IO",
+                "card_target": "[0] ALL"
+            }
+        ],
+        "when_to_play": "[0] SUBITO",
+        "optional": false
+    }
+]

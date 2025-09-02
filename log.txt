@@ -1,0 +1,46 @@
+
+──────────────────────────────────────────────────
+
+[+] Caricamento del salvataggio "./saves/example.sav"
+
+[Turno 1]: "Federico" ha pescato la carta "MAI".
+[Turno 1]: "Federico" ha giocato la carta "Laureando Avido".
+[Turno 1]: "Federico" ha pescato la carta "Due per Uno".
+[Turno 2]: "Andrea" ha pescato la carta "Due per Uno".
+[Turno 2]: "Andrea" ha giocato la carta "Studente Chiacchierone".
+[Turno 3]: "Fabio" ha eliminato la carta "Laureando Seduttore" dall'aula studio di "Fabio".
+[Turno 3]: "Fabio" ha pescato la carta "Ottimo Affare".
+[Turno 3]: "Fabio" ha pescato la carta "MAI".
+[Turno 3]: "Fabio" ha pescato la carta "Laureando Ladro".
+[Turno 3]: "Fabio" ha giocato la carta "Laureando Ladro".
+[Turno 3]: "Federico" ha bloccato l'effetto della carta "Laureando Ladro" utilizzando la carta "MAI".
+[Turno 3]: "Fabio" ha scartato la carta "Colpo di Fortuna".
+[Turno 3]: "Fabio" ha scartato la carta "Laureando Avido".
+[Turno 4]: "Alessandra" ha eliminato la carta "Matricola Energy Drink" dall'aula studio di "Alessandra".
+[Turno 4]: "Alessandra" ha pescato la carta "Portone chiuso".
+[Turno 4]: "Alessandra" ha pescato la carta "Laureando Snitch".
+
+──────────────────────────────────────────────────
+
+[+] Inizio di una nuova partita "Partita_Di_mario" salvata in "./saves/Partita_Di_mario.sav"
+
+[Turno 1]: "Mario" ha pescato la carta "Laureando Nerd".
+[Turno 1]: "Mario" ha pescato la carta "Sparacoriandoli".
+[Turno 1]: "Mario" ha scartato la carta "Laureando Casinista".
+[Turno 1]: "Mario" ha scartato la carta "free(svantaggio);".
+[Turno 2]: "Luigi" ha pescato la carta "CTM in orario".
+[Turno 2]: "Luigi" ha giocato la carta "Ingegnerizzazione".
+[Turno 3]: "Mario" ha pescato la carta "CTM in orario".
+[Turno 3]: "Mario" ha giocato la carta "Studente Chiacchierone".
+[Turno 4]: "Luigi" ha pescato la carta "Due per Uno".
+
+──────────────────────────────────────────────────
+
+[+] Caricamento del salvataggio "./saves/example.sav"
+
+[Turno 1]: "Alessandra" ha eliminato la carta "Matricola Energy Drink" dall'aula studio di "Alessandra".
+[Turno 1]: "Alessandra" ha pescato la carta "Portone chiuso".
+[Turno 1]: "Alessandra" ha pescato la carta "Laureando Snitch".
+[Turno 1]: "Alessandra" ha giocato la carta "Passaggio di appunti".
+[Turno 1]: "Fabio" ha bloccato l'effetto della carta "Passaggio di appunti" utilizzando la carta "MAI".
+[Turno 2]: "Federico" ha pescato la carta "Salta fila in mensa".

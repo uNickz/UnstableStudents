@@ -1,0 +1,404 @@
+1
+Matricola Energy Drink
+Impossibile seguire una lezione senza la Red Bull. Non si puo'.
+2
+0
+3
+0
+1
+Matricola Scout
+Che bello programmare all'aria aperta.
+2
+0
+3
+0
+1
+Matricola Smanettone
+Avra' una versione di ArchLinux su cui non girera' nulla.
+2
+0
+3
+0
+1
+Matricola Gamer
+Frequenta perlopiu' lezioni di Brawl Stars, Geometry Dash e TCG Pokemon.
+2
+0
+3
+0
+1
+Matricola Multitasking
+Svolge gli esercizi, guarda House Of Cards e risponde alle domande del docente.
+2
+0
+3
+0
+1
+Matricola Scacchista
+Arrivera' in ritardo alla lezione perche' sta finendo la partita all'ingresso del Palazzo.
+2
+0
+3
+0
+3
+Studente Freddoloso
+Possono esserci 40 gradi, ma lui avra' comunque freddo.
+3
+0
+3
+0
+3
+Studente Boscaiolo
+Barba folta e passione per le camicie a quadri.
+3
+0
+3
+0
+3
+Studente Trassato
+Confonde il Palazzo delle Scienze con le Terrazze di Calamosca.
+3
+0
+3
+0
+3
+Studente Erasmus
+Profesor, es posible realizar el examen en ingles?
+3
+0
+3
+0
+3
+Studente Influencer
+La soluzione al tuo esercizio fa tendenza!
+3
+0
+3
+0
+3
+Studente Palestrato
+Ha le spalle cosi' larghe che occupa due posti.
+3
+0
+3
+0
+3
+Studente Anticipatore
+Se la lezione parla degli array, lui sta gia' pensando alle liste.
+3
+0
+3
+0
+3
+Studente Chiacchierone
+Parlera' di tutto con il collega di fianco ma non dei puntatori.
+3
+0
+3
+0
+4
+Laureando Nerd
+Quando questa carta esce dalla tua aula, puoi eliminare una carta dall'aula di un altro giocatore.
+4
+1
+2 1 0
+2
+1
+4
+Laureando Lagna
+Quando questa carta entra nella tua aula, ogni giocatore incluso te stesso deve scartare una carta.
+4
+1
+1 3 0
+0
+0
+4
+Laureando Seduttore
+Quando questa carta entra nella tua aula, puoi scartare una carta e poi ruba una carta studente.
+4
+2
+1 0 0
+3 1 1
+0
+1
+4
+Laureando Avido
+Quando questa carta entra nella tua aula, pesca una carta.
+4
+1
+4 0 0
+0
+0
+4
+Laureando Hipster
+Quando questa carta entra nella tua aula, pesca due carte e scarta una carta.
+4
+3
+4 0 0
+4 0 0
+1 0 0
+0
+0
+4
+Laureando Casinista
+Quando questa carta entra nella tua aula, tutti i giocatori devono eliminare una carta studente dalla propria aula.
+4
+1
+2 3 1
+0
+0
+4
+Laureando Snitch
+Quando questa carta entra nella tua aula, puoi eliminare una carta vantaggio dall'aula di un altro giocatore.
+4
+1
+2 1 5
+0
+1
+4
+Laureando Ladro
+Quando questa carta entra nella tua aula, puoi rubare una carta vantaggio dall'aula di un altro giocatore.
+4
+1
+3 1  5
+0
+1
+3
+CTM in orario
+Se questa carta e' nella tua aula all'inizio del tuo turno, puoi giocare due carte.
+5
+1
+0 0 0
+1
+1
+3
+Salta fila in mensa
+Se questa carta e' nella tua aula all'inizio del tuo turno, puoi scartare 3 carte e poi rubare una carta studente.
+5
+4
+1 0 0
+1 0 0
+1 0 0
+3 1 1
+1
+1
+3
+Aula dei vecchi progetti
+Se questa carta e' nella tua aula all'inizio del tuo turno, puoi scartare 2 carte poi eliminare una carta studente dall'aula di un altro giocatore.
+5
+3
+1 0 0
+1 0 0
+2 1 1
+1
+1
+3
+Macchinetta inceppata
+Se questa carta e' nella tua aula all'inizio del tuo turno, puoi scartare una carta e poi pesca una carta.
+5
+2
+1 0 0
+4 0 0
+1
+1
+3
+Sovraccarico di caffeina
+Se questa carta e' nella tua aula all'inizio del tuo turno, puoi eliminare una carta dalla tua aula e poi pesca due carte.
+5
+3
+2 0 0
+4 0 0
+4 0 0
+1
+1
+3
+Sparacoriandoli
+Se questa carta e' nella tua aula all'inizio del tuo turno, puoi eliminare una carta dalla tua aula e poi elimina una carta dall'aula di un altro giocatore.
+5
+2
+2 0 0
+2 1 0
+1
+1
+2
+Aula minuscola
+A inizio turno, elimina una carta studente dalla tua aula.
+6
+1
+2 0 1
+1
+0
+1
+Portone chiuso
+A inizio turno, scarta una carta.
+6
+1
+1 0 0
+1
+0
+1
+Allerta meteo
+A inizio turno, elimina una carta studente dalla tua aula e poi pesca una carta.
+6
+2
+2 0 1
+4 0 0
+1
+0
+1
+Esame in Lab T
+La tua mano deve essere visibile a tutti i giocatori.
+6
+1
+8 0 0
+4
+0
+1
+Teams fuori servizio
+Non puoi giocare carte BONUS.
+6
+1
+9 0 5
+4
+0
+1
+CTM in ritardo
+Non puoi giocare carte MAI.
+6
+1
+9 0 8
+4
+0
+1
+Ingegnerizzazione
+Tutti i tuoi studenti sono considerati ingegneri.
+6
+1
+10 0 1
+4
+0
+3
+Due per Uno
+Elimina 1 carta dalla tua aula, poi elimina 2 carte dall'aula di un altro giocatore.
+7
+3
+2 0 0
+2 1 0
+2 1 0
+0
+0
+3
+Scambio di esame
+Scambia la tua mano con quella di un altro giocatore.
+7
+1
+7 1 0
+0
+0
+3
+Passaggio di appunti
+Ruba 1 carta da una mano di un altro giocatore.
+7
+1
+5 1 0
+0
+0
+3
+Copia dal turno precedente
+Scarta 1 carta dalla mano e ruba 2 carte dalla mano di un altro giocatore.
+7
+3
+1 0 0
+5 1 0
+5 1 0
+0
+0
+3
+Aperitivo da Tiffany
+Elimina 1 carta studente dall'aula di un altro giocatore.
+7
+1
+2 1 1
+0
+0
+2
+Colpo di Fortuna
+Pesca 2 carte, scarta 3 carte, poi svolgi una carta.
+7
+6
+4 0 0
+4 0 0
+1 0 0
+1 0 0
+1 0 0
+0 0 0
+0
+0
+2
+Ottimo Affare
+Pesca 3 carte e scarta 1 carta.
+7
+4
+4 0 0
+4 0 0
+4 0 0
+1 0 0
+0
+0
+2
+Attacco Hacker
+Elimina 1 carta vantaggio dall'aula di un altro giocatore.
+7
+1
+2 1 5
+0
+0
+2
+free(svantaggio);
+Elimina 1 carta svantaggio dalla tua aula.
+7
+1
+2 0 6
+0
+0
+2
+Ruba Studente
+Prendi 1 carta studente dall'aula di un altro giocatore.
+7
+1
+3 1 1
+0
+0
+3
+Sessione di Laurea
+Ogni giocatore (incluso te stesso) elimina 1 carta studente dalla propria aula.
+7
+1
+2 3 1
+0
+0
+3
+Tasto reset
+Ogni giocatore (incluso te stesso) elimina 1 carta bonus e 1 carta malus dalla propria aula.
+7
+2
+2 3 5
+2 3 6
+0
+0
+3
+Bagno intasato
+Ogni giocatore (escluso te stesso) deve scartare 1 carta.
+7
+1
+1 2 0
+0
+0
+15
+MAI
+Blocca l'azione che un giocatore ti sta imponendo.
+8
+1
+6 0 0
+0
+0
